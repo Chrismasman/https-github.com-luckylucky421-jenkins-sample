@@ -13,7 +13,7 @@ spec:
         app: jenkins-demo
     spec:
       containers:
-      - image: harbor.zcg.com/omg/jenkins-jnlp:<BUILD_TAG>
+      - image: harbor.zcg.com/omg/jenkins-jnlp6:<BUILD_TAG>
         imagePullPolicy: IfNotPresent
         name: jenkins-demo
         env:
